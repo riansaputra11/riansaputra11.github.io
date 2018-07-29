@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> GAMEku </title>
+    <link rel="icon" href="assets/logo-template-game.png">
+    <style>
+      body{
+        margin: 0px;
+        background-image:url(assets/galaxy.jpg) ;
+        height: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #header{
+        background: #000;
+      }
+      #header ul{
+        color: #fff;
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+      }
+      #header ul li{
+        display: inline-block;
+      }
+      
+      li{
+          position: relative;
+
+      }
+
+
+      #daftar{
+        position: absolute;
+        right: 0px;
+
+      }
+      
+      .wrapper{
+        position: relative;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+      #titleVideo, .centerVertically{
+        position: absolute;
+        top: 100%;
+        transform: translateY(-50%);
+      }
+      div#titleVideo {
+          width: 100%;
+          background-image:url(assets/komunitas.png);
+          padding-top: 35px;
+          padding-bottom: 35px;
+      }
+      #partner{
+        padding: 15px 0px; 
+      }
+      .imgPartner{
+        height: 500px;
+      }
+      #article .wrapper{
+        display: table;
+      }
+      .floatLeft{
+        float: left;
+        width: 48%;
+        padding: 1%;
+      }
+      .floatRight{
+        float: right;
+        width: 48%;
+        padding: 1%;
+      }
+      form{
+        padding: 15px 0px;
+      }
+      .blocking{
+        display: block;
+        padding: 15px 0px;
+      }
+      h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      h3{
+        font-size: 30px;
+      }
+      h2{
+        font-size: 20px;
+      }
+
+    </style>
+    <link rel="stylesheet" href="assets/gamesku.css">
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="wrapper">
+        <img src="assets/logo-template-game.png" alt="fox-logo" style="height: 52px"/>
+        <ul class="centerVertically">
+          <li>Communities</li>
+          <li>Tournament</li>
+          <li>Marketplace</li>
+          <li>Download</li>
+        </ul>
+        <button id="daftar" class="centerVertically"> Login </button>
+      </div>
+    </div>
+   <div id="videoArea">
+      <div class="wrapper">
+        <video style="width: 100%" autoplay muted>
+          <source src="assets/Keseruan di Indonesia Game Xperience 2018.mp4" type="video/mp4">
+        </video>
+        <div id="titleVideo">
+          <center>
+            <h1>
+                The Best Game Forum
+            </h1>
+            </center>
+        </div>
+      </div>
+    </div>
+    <div id="partner">
+      <center>
+          <img class="imgPartner" src='assets/pc-game-logo-blacksolid.png'/>
+          <img class="imgPartner" src='assets/ML_Logo.png'/>
+          <img class="imgPartner" src='assets/vr game.png'/>
+          <img class="imgPartner" src='assets/board.png'/>
+      </center>
+    </div>
+
+    <div id="article">
+      <div class="wrapper">
+          <img class="floatLeft" src="assets/Hari-Game-Indonesia.jpg"/>
+          <div class="floatRight">
+              <p>
+                  <h3>FORUM</h3>
+                  GAMEku adalah platform forum untuk para gamers Indonesia dimana dapat berbagi seputar informasi games baik dalam maupun luar
+              </p>
+              <ul class="centerVertically">
+                  <li><a href="assets/dota2.jpg"></a>REVIEW</li>
+                  <li>PREVIEW</li>
+                  <li>EDITOR's PICK</li>
+                  <li>CREDITS</li>
+                </ul>
+              
+          </div>
+      </div>  
+    </div>
+
+    <div id="article2">
+      <div class="wrapper">
+        
+        <div class="floatLeft"width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
+
+          <h3>TOP game</h3>
+            </div>
+          <div class="floatRight">
+            <h3>
+            TOP RATED
+            <ul class="centerVertically">  </h3>
+                <li>DOTA</li>
+                <li>MOBILE LEGEND</li>
+                <li>COUNTER STRIKE</li>
+                <li>PUBG</li>
+              </ul>
+        
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="wrapper">
+        <form action="#" method="GET">
+          <h2>SUBSCRIBE</h2>
+          <label class="blocking">your email</label>
+          <input type="text" name="inputEmail" placeholder="your email" style="width: 350px; padding: 10px; font-size: 14px"/>
+          <label class="blocking">Message</label>
+          <textarea name="Input Message" style="width: 350px; height: 55px; padding: 10px; font-size: 14px"></textarea>
+          <input  class="blocking" type="submit" value="SUBMIT ">
+        </form>
+      </div>
+    </div>
+    
+  </body>
+</html>
